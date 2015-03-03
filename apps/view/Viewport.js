@@ -18,7 +18,11 @@ Ext.define('SCH.view.panel.Dashboard',{
                     modal       : true,
                     frame       : true,
                     hideHeader  : true,
+<<<<<<< HEAD
                     html        : '<div id="welcome">S.I.S SYSTEM</div>' 
+=======
+                    html        : '<div id="welcome">Poin Of Sales System</div>' 
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
                 }
             ]   
 		});
@@ -96,7 +100,11 @@ Ext.define('SCH.view.Menu',{
 /**
  * @class POSIA Viewport
  * @extends Container Viewport
+<<<<<<< HEAD
  * Copyright Ardian Webi Kirda
+=======
+ * Copyright PT. ART MEDIA INDONESIA 
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
  */
 Ext.define('SCH.view.Viewport', {
     extend 		: 'Ext.container.Viewport',
@@ -114,8 +122,13 @@ Ext.define('SCH.view.Viewport', {
 					xtype 	: 'panel',
 					layout 	: 'fit',
 					region	: 'north',
+<<<<<<< HEAD
                     iconCls : 'icon-school',
 					title 	: 'S.I.S SYSTEM',
+=======
+                    iconCls : 'icon-cheers',
+					title 	: 'P.O.S SYSTEM',
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
 					id		: 'appHeader'
 				},
 				{

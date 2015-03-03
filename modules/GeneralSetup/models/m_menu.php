@@ -93,7 +93,11 @@ class M_menu extends CI_Model
             $db->set('updated', date('Y-m-d H:i:s'));
             if($parent > 0){
                 $nameParent = $this->getParent($parent);
+<<<<<<< HEAD
                 $cls = 'SCH.module.'.$nameParent.'.'.$name.'.view.'.$name;
+=======
+                $cls = 'ARTMED.module.'.$nameParent.'.'.$name.'.view.'.$name;
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
                 $db->set('leaf', 'TRUE');
                 $db->set('selector', $name);
                 $db->set('cls', $cls);
@@ -156,7 +160,11 @@ class M_menu extends CI_Model
 
         if($parent > 0){
             $nameParent = $this->getParent($parent);
+<<<<<<< HEAD
             $cls = 'SCH.module.'.$nameParent.'.view.'.$name;
+=======
+            $cls = 'ARTMED.module.'.$nameParent.'.view.'.$name;
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
             $data = array(
                            'name'           => $name,
                            'parent'         => $parent,

@@ -67,7 +67,11 @@ $db['default']['stricton'] = FALSE;*/
 $db['dbsystem']['hostname'] = 'localhost';
 $db['dbsystem']['username'] = 'dbuser';
 $db['dbsystem']['password'] = 'dbadmin';
+<<<<<<< HEAD
 $db['dbsystem']['database'] = 'dbsosis';
+=======
+$db['dbsystem']['database'] = 'dbschool';
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
 $db['dbsystem']['dbdriver'] = 'postgre';
 $db['dbsystem']['dbprefix'] = '';
 $db['dbsystem']['pconnect'] = TRUE;

@@ -53,6 +53,7 @@ body {
 .icon-setting { background-image: url(../img/setting.png) !important; }
 .icon-semester { background-image: url(../img/semester.png) !important; }
 .icon-rm { background-image: url(../img/drive_add.png) !important; }
+<<<<<<< HEAD
 .icon-profile { background-image: url(../img/vcard.png) !important; }
 .icon-guru { background-image: url(../img/user_gray.png) !important; }
 .icon-siswa { background-image: url(../img/user_star.png) !important; }
@@ -61,6 +62,16 @@ body {
 .icon-capel { background-image: url(../img/book.png) !important; }
 .icon-mapel { background-image: url(../img/book_open.png) !important; }
 .icon-kelas { background-image: url(../img/door_open.png) !important; }
+=======
+.icon-catroom { background-image: url(../img/door.png) !important; }
+.icon-room { background-image: url(../img/layout.png) !important; }
+.icon-order_room { background-image: url(../img/order_room.png) !important; }
+.icon-table { background-image: url(../img/box.png) !important; }
+.icon-mtable { background-image: url(../img/brick.png) !important; }
+.icon-order_table { background-image: url(../img/cart_edit.png) !important; }
+.icon-merchant { background-image: url(../img/house_star.png) !important; }
+.icon-master_merchant { background-image: url(../img/image_star.png) !important; }
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
 .icon-order_merchant { background-image: url(../img/laptop_stop.png) !important; }
 .icon-member { background-image: url(../img/user_suit.png) !important; }
 .icon-catmember { background-image: url(../img/report_user.png) !important; }

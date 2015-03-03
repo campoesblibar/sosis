@@ -2,7 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+<<<<<<< HEAD
 		<title>P.P.D.B</title>
+=======
+		<title>P.O.S</title>
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<meta name="author" content="">

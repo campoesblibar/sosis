@@ -38,7 +38,11 @@
 |
 */
 
+<<<<<<< HEAD
 $route['default_controller'] = "welcome/welcome";
+=======
+$route['default_controller'] = "ppdb/c_ppdb";
+>>>>>>> a2341bd46b1ab32701f3700ae770e70f64f2c263
 $route['404_override'] = '';
 
 
