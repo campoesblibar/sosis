@@ -1,0 +1,46 @@
+Ext.define('SCH.module.DataMasterPPDB.TahunAjaran.view.grid.GridTahunAjaran',{
+	extend 		: 'Ext.grid.Panel',
+	store 		: 'SCH.module.DataMasterPPDB.TahunAjaran.store.TahunAjaran',
+	title 		: 'Grid Master TahunAjaran',
+	iconCls 	: 'icon-grid',
+	alias 		: 'widget.gridtahunajaran',
+	id 			: 'gridtahunajaran',
+	border   	: true,
+    frame    	: true,
+    margins     : '3px', 
+    selModel: {
+        selType     : 'checkboxmodel',
+        mode        : 'MULTI',
+        checkOnly   : true,
+        width       : '3%',
+        action      : 'selected',
+    },
+    dockedItems: [{
+        xtype       : 'pagingtoolbar',
+        store       : 'SCH.module.DataMasterPPDB.TahunAjaran.store.TahunAjaran',
+        dock        : 'bottom'
+    }], 
+    columns  : [
+        {
+            text    : 'No',
+            xtype   : 'rownumberer',
+            width   : '7%'
+        },
+        {
+            text     : 'Nama',
+            dataIndex: 'name',
+            width    : '40%'
+        }
+    ],
+    tbar: [
+         { xtype: 'button', iconCls: 'icon-delete', text: 'Delete', action : 'delete', disabled : deleteTahunAjaran },
+         // { xtype: 'button', iconCls: 'icon-excel', text: 'Print', action : 'print' },
+         {
+            xtype               : 'textfield',
+            emptyText           : 'Type a keyword Press Enter',
+            width               : '85%',
+            enableKeyEvents     : true,
+            action              : 'search'
+        }
+    ]	
+});
